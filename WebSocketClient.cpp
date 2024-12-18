@@ -31,9 +31,10 @@ void WebSocketClient::sendMessage(const QString &message)
 
 void WebSocketClient::onConnected()
 {
+	QString data = "787001;10";
     qDebug() << "Connected to WebSocket server:" << m_url;
     // Example message send
-    sendMessage("Hello, Server!");
+    sendMessage(data);
 }
 
 void WebSocketClient::onDisconnected()

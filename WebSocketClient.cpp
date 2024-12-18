@@ -1,4 +1,4 @@
-#include "websocketclient.h"
+#include "Websocketclient.h"
 #include <QCoreApplication>
 #include <QDebug>
 
